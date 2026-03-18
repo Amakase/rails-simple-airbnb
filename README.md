@@ -1,4 +1,4 @@
-# Wikinimous
+# Simple Airbnb
 
 A simple Airbnb clone built with Ruby-on-Rails
 
