@@ -24,6 +24,11 @@ class FlatsController < ApplicationController
   end
 
   def update
+    if @flat.update(flat_params)
+      redirect_to flat_path(@flat)
+    else
+      render :edit, status: :unprocessable_entity
+    end
   end
 
   def destroy
